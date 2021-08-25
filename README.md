@@ -10,8 +10,6 @@ Denis Schegletov
 Danis Alukaev
 Maxim Pryanikov
 ### Repositories:
-[https://github.com/DanisAlukaev/Doctorinna](Backend)
-[https://github.com/Denisalik/frontend_ssad](Frontend)
-[TBA](Telegram Bot)
-
-[https://docs.google.com/document/d/1XqMhSrKmOP4WjXd-F3cGisRRVKYackqG/edit?usp=sharing&ouid=113793513842523861861&rtpof=true&sd=true](Link to Artifact)
+[Backend](https://github.com/DanisAlukaev/Doctorinna)  
+[Frontend](https://github.com/Denisalik/frontend_ssad)
+[Link to Artifact](https://docs.google.com/document/d/1XqMhSrKmOP4WjXd-F3cGisRRVKYackqG/edit?usp=sharing&ouid=113793513842523861861&rtpof=true&sd=true)
