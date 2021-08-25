@@ -4,10 +4,10 @@
 ​​An application for determining the user's risk group for the widespread diseases by medical parameters. This application will allow people in the form of a survey without undergoing a medical examination to understand whether it is necessary to be examined by a doctor and change their lifestyle.
 
 ### Collaborators
-Lada Morozova \
-Denis Schegletov \
-Danis Alukaev \
-Maxim Pryanikov
+- Lada Morozova 
+- Denis Schegletov 
+- Danis Alukaev 
+- Maxim Pryanikov
 ### Repositories
 [Backend](https://github.com/DanisAlukaev/Doctorinna)  \
 [Frontend](https://github.com/Denisalik/frontend_ssad) 
