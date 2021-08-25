@@ -10,6 +10,6 @@ Danis Alukaev
 Maxim Pryanikov
 ### Repositories
 [Backend](https://github.com/DanisAlukaev/Doctorinna)  \
-[Frontend](https://github.com/Denisalik/frontend_ssad) \
+[Frontend](https://github.com/Denisalik/frontend_ssad) 
 ### Artifacts
 [Artifact - 25.08](https://docs.google.com/document/d/1XqMhSrKmOP4WjXd-F3cGisRRVKYackqG/edit?usp=sharing&ouid=113793513842523861861&rtpof=true&sd=true)
