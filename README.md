@@ -26,3 +26,28 @@ Accordingly, the code is distributed into 3 repositories:
 
 Each repository has a detailed description of how to launch correspondent side of the project locally.
 
+### Glossary
+- **Cardiovascular Disease** - disease is a general term for conditions affecting the heart or blood vessels.
+- **Diabetes** - disease which is caused by a high level of blood glucose.
+- **Stroke** - stroke occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients.
+- **Lung cancer** - type of cancer that begins in the lungs.
+- **REST** - architecture that are typically loosely based on HTTP methods to access resources via URL-encoded parameters and the use of JSON or XML to transmit data.
+- **Microservice** - architecture that arranges an application as a collection of loosely-coupled services. Opposed to monolithic architecture.
+- **CRUD** - Create, Read, Update, Delete - 4 basic operations of persistent storage.
+- **Serializer/DTO** - data structure in backend that can be converted to JSON and back, and then send to frontend.
+- **Entity/Model(Backend)** - data structure used in backend that is mapped to table in SQL database.
+- **Repository** - Github repository of organization Doctorinna.
+- **Component (Frontend)** - group of HTML elements, that can be reused multiple times and structuralized code.
+- **Logger (Backend)** - log the information about all activities to retrieve bugs more easily.
+- **Risk group** - medical risk group of user. There are 4 types of risk groups: no risk, low risk, medium risk, high risk.
+- **Component (UML)** - modular part of the system that encapsulate the state and behavior of a number classifiers.
+- **State manager (Frontend)** - object that controls state in all application and send this state to components.
+- **Service (Backend)** - part of the Backend that contains business logic.
+- **Controller/urls (Backend)** - part of the Backend that contains sending and receiving information using HTTP methods.
+- **Local Storage** - persistent storage in browser that can store key-value pairs.
+- **RUP** - Rational Unified Process.
+- **SSR** - Server Side Rendering. Technique to render web page in server and deliver to client already rendered (but it can be rerendered later on client side).
+- **Questionnaire** - set of questions that are answered by users, processed by system and results are displayed on user interface.
+- **Bot** - Telegram bot.
+- **User** - web Users of the web application or telegram bot.
+
