@@ -2,6 +2,8 @@
 **Authors:** Lada Morozova, Denis Schegletov, Danis Alukaev, Maxim Pryanikov. \
 **Group:** B19-DS-01, Innopolis University.
 
+> This is the overview repository primarily used for documentation, implementation details see [Structure of project](#structure) section
+
 Doctorinna is an application for determining the user's risk group for the widespread diseases by medical parameters. 
 This application will allow people in the form of a survey without undergoing a medical examination to understand
 whether it is necessary to be examined by a doctor and change their lifestyle.
@@ -13,7 +15,7 @@ Doctorinna is our attempt to create a product that sobers the modern generation.
 
 Our goal is to distract you from the flow of digital garbage for at least a minute, and ask the question, _what are you doing to live to old age?_
 
-### Structure of project
+### <a name="structure"> Structure of project </a>
 It was decided to build a backend API implemented on the Django REST Framework. It will contain the business logic of the application.
 
 In our opinion, the main flow of users might come through the web version of the application and the Telegram bot. 
