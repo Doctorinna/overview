@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+
+  database:
+    container_name: "doctorinna-risks-db"
+    image: postgres:13.4
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - database-risks:/var/lib/postgresql/data
+
+  django_gunicorn:
+    container_name: "doctorinna-gunicorn"
+    image: "aldanis/doctorinna-api:latest"
+    volumes:
+      - static:/static
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - database
+
+  nginx:
+    container_name: "doctorinna-nginx"
+    image: "aldanis/doctorinna-nginx:latest"
+    volumes:
+      - static:/static
+    ports:
+      - "80:80"
+    depends_on:
+      - django_gunicorn
+
+volumes:
+  database-risks:
+  static:
