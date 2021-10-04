@@ -2,7 +2,7 @@
 **Authors:** Lada Morozova, Denis Schegletov, Danis Alukaev, Maxim Pryanikov. \
 **Group:** B19-DS-01, Innopolis University.
 
-> This is the overview repository primarily used for documentation, implementation details see [Structure of project](#structure) section
+> This is the overview repository primarily used for documentation, for implementation details see [Structure of project](#structure) section
 
 Doctorinna is an application for determining the user's risk group for the widespread diseases by medical parameters. 
 This application will allow people in the form of a survey without undergoing a medical examination to understand
