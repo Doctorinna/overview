@@ -16,7 +16,7 @@ services:
 
   django_gunicorn:
     container_name: "doctorinna-gunicorn"
-    image: "aldanis/doctorinna-api:latest"
+    image: "aldanis/doctorinna-api:stable"
     volumes:
       - static:/static
     env_file:
@@ -28,7 +28,7 @@ services:
 
   nginx:
     container_name: "doctorinna-nginx"
-    image: "aldanis/doctorinna-nginx:latest"
+    image: "aldanis/doctorinna-nginx:stable"
     volumes:
       - static:/static
     ports:
