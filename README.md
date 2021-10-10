@@ -21,7 +21,8 @@ If you want to build our application on local machine use
 
 If you want to contribute check **[our API](https://github.com/Doctorinna/backend/tree/dev)**
 ## Demo
-Click on image to watch video
+**Click on image to watch video**
+
 [![Demo](/media/IMG_6532.jpg)](https://www.youtube.com/watch?v=m8JJrt3AI24)
 
 Results based on data provided in demo video:
