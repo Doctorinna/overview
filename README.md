@@ -1,6 +1,5 @@
 <div align="center" height="130px">
   <img src="media/Logotype.svg" alt="Logotype"/><br/>
-  <h1> Doctorinna </h1>
   <p></p>
 </div>
 
