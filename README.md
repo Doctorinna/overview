@@ -9,9 +9,11 @@
 
 > This is the overview repository primarily used for documentation, for implementation details see [Structure of project](#structure) section
 
-Doctorinna is an application for determining the user's risk group for the widespread diseases by medical parameters. 
+Doctorinna is an open-source application for determining the user's risk group for the widespread diseases by medical parameters. 
 This application will allow people in the form of a survey without undergoing a medical examination to understand
 whether it is necessary to be examined by a doctor and change their lifestyle.
+## Demo
+
 ## Table of content
 - [Motivation](#motivation)
 - [Structure of project](#structure)
@@ -28,6 +30,9 @@ whether it is necessary to be examined by a doctor and change their lifestyle.
     - [Sequence diagram](#sequence)
     - [Design patterns](#patterns)
 - [Technology stack](#stack)
+- [Code](#code)
+    - [Static analyzer](#static_analyzer)
+    - [Test coverage](#test_coverage)
 
 ### Motivation <a name="motivation">  </a>
 A modern person prefers not to think about the fact that sooner or later his or her life will end. Our old age is so far away. So much so that it is easy for it to get lost in everyday studies, tedious work, questionable entertainment, quick snacks and hours of communication on social networks.
@@ -157,5 +162,12 @@ The backend side of the application is implemented in Django REST Framework. A s
 | Celery                	| Jest + Enzyme 	|                   	|
 | Scikit-learn          	| Material-ui   	|                   	|
 
+## Code <a name="code"> </a>
+### Static analyzer <a name="static_analyzer"> </a>
 
-
+### Test coverage and code quality <a name="test_coverage"> </a>
+| Backend                                                                                                                                                                                                                                                              	| Frontend                                                                                                                                                                                                                                                               	| Telegram bot                                                                                                                                                                                                                                                                              	|
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/924cfbae7cbd4c889eca950aa645a362)](https://www.codacy.com/gh/Doctorinna/backend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/backend&amp;utm_campaign=Badge_Grade) 	| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d6c01263e90b4c3a9e85b630e274eb72)](https://www.codacy.com/gh/Doctorinna/frontend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/frontend&amp;utm_campaign=Badge_Grade) 	| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5e91d2c1d64f41cd9bbfeedb7af7f81c?branch=dev)](https://www.codacy.com/gh/Doctorinna/telegram-bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/telegram-bot&amp;utm_campaign=Badge_Grade) 	|
+| [![codecov.io](https://codecov.io/github/Doctorinna/backend/coverage.svg?branch=master)](https://app.codecov.io/gh/Doctorinna/backend?branch=master)                                                                                                                 	| [![codecov](https://codecov.io/gh/Doctorinna/frontend/branch/master/graph/badge.svg?token=8BE2XA4162)](https://codecov.io/gh/Doctorinna/frontend)                                                                                                                      	|                                                                                                                                                                                                                                                                                           	|
+| [![CI/CD master](https://github.com/Doctorinna/backend/actions/workflows/ci-cd-master.yml/badge.svg)](https://github.com/Doctorinna/backend/actions/workflows/ci-cd-master.yml)                                                                                      	|                                                                                                                                                                                                                                                                        	|                                                                                                                                                                                                                                                                                           	|
