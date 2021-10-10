@@ -1,8 +1,9 @@
 <div align="center" height="130px">
   <img src="media/Logotype.svg" alt="Logotype"/><br/>
-  <h1> API Doctorinna </h1>
+  <h1> Doctorinna </h1>
   <p></p>
 </div>
+
 # Doctorinna - medical risk factor analyzer
 **Authors:** Lada Morozova, Denis Schegletov, Danis Alukaev, Maxim Pryanikov. \
 **Group:** B19-DS-01, Innopolis University.
