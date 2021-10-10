@@ -21,6 +21,15 @@ If you want to build our application on local machine use
 
 If you want to contribute check **[our API](https://github.com/Doctorinna/backend/tree/dev)**
 ## Demo
+[![Demo](https://img.youtube.com/vi/m8JJrt3AI24/0.jpg)](https://www.youtube.com/watch?v=m8JJrt3AI24)
+
+
+Results based on data provided in demo video:
+
+<img src="./media/IMG_6529.jpg" alt="drawing" width="300"/>
+<img src="./media/IMG_6530.jpg" alt="drawing" width="300"/>
+<img src="./media/IMG_6531.jpg" alt="drawing" width="300"/>
+
 
 ## Table of content
 - [Motivation](#motivation)
