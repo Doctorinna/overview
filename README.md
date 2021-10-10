@@ -3,7 +3,7 @@
   <p></p>
 </div>
 
-# Doctorinna - medical risk factor analyzer
+# Doctorinna - open-source medical risk factor analyzer
 **Authors:** Lada Morozova, Denis Schegletov, Danis Alukaev, Maxim Pryanikov. \
 **Group:** B19-DS-01, Innopolis University.
 
@@ -28,9 +28,6 @@ whether it is necessary to be examined by a doctor and change their lifestyle.
     - [Sequence diagram](#sequence)
     - [Design patterns](#patterns)
 - [Technology stack](#stack)
-    - [Backend](#backend)
-    - [Frontend](#frontend)
-    - [Telegram bot](#telegram_bot)
 
 ### Motivation <a name="motivation">  </a>
 A modern person prefers not to think about the fact that sooner or later his or her life will end. Our old age is so far away. So much so that it is easy for it to get lost in everyday studies, tedious work, questionable entertainment, quick snacks and hours of communication on social networks.
@@ -139,33 +136,26 @@ Sequence diagram presents the sequence of events occurring in the system, intera
 ![](media/sequence_diagram.png)
 
 ### Design patterns <a name="patterns"> </a>
+The backend side of the application is implemented in Django REST Framework. A significant number of design patterns are used in this framework. Therefore, in the course of our work, we indirectly use them. 
+
+ **Examples of used design patterns:**
+ - **Factory design** pattern is used for creation of fields in forms 
+ - **Observer** is used to register callback functions executed when fields in models were changed
+
+ For more detailed explanation of used design patterns, please check [Gamma Delivery]().
 
 ## Technology stack <a name="stack"> </a>
-### Backend <a name="backend"> </a>
-- Django REST framework
-- Python
-- Docker
-- PostgreSQL
-- Nginx
-- Gunicorn
-- RabbitMq
-- Celery
-- Scikit-learn
-### Frontend <a name="frontend"> </a>
-- React
-- Next.js
-- Redux
-- Typescript
-- Npm
-- HTML
-- SCSS
-- Jest + Enzyme
-- Material-ui
-### Telegram bot <a name="telegram_bot"> </a>
-- aiogram framework
-- Python
-- Docker
-- Redis
+| Backend               	| Frontend      	| Telegram bot      	|
+|-----------------------	|---------------	|-------------------	|
+| Django REST framework 	| React         	| aiogram framework 	|
+| Python                	| Next.js       	| Python            	|
+| Docker                	| Redux         	| Docker            	|
+| PostgreSQL            	| Typescript    	| Redis             	|
+| Nginx                 	| Npm           	|                   	|
+| Gunicorn              	| HTML          	|                   	|
+| RabbitMq              	| SCSS          	|                   	|
+| Celery                	| Jest + Enzyme 	|                   	|
+| Scikit-learn          	| Material-ui   	|                   	|
 
 
 
