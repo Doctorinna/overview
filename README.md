@@ -12,6 +12,14 @@
 Doctorinna is an open-source application for determining the user's risk group for the widespread diseases by medical parameters. 
 This application will allow people in the form of a survey without undergoing a medical examination to understand
 whether it is necessary to be examined by a doctor and change their lifestyle.
+
+## Our services
+If you want to use our application without installation you can use **[web application](https://doctorinna.vercel.app)** or **[Telegram bot](https://t.me/doctorinna_bot)**
+
+If you want to build our application on local machine use
+**[Docker image with stable versions](https://github.com/Doctorinna/overview/blob/master/docker-compose.yml)**
+
+If you want to contribute check **[our API](https://github.com/Doctorinna/backend/tree/dev)**
 ## Demo
 
 ## Table of content
@@ -32,7 +40,7 @@ whether it is necessary to be examined by a doctor and change their lifestyle.
 - [Technology stack](#stack)
 - [Code](#code)
     - [Static analyzer](#static_analyzer)
-    - [Test coverage](#test_coverage)
+    - [Test coverage and code quality](#test_coverage)
 
 ### Motivation <a name="motivation">  </a>
 A modern person prefers not to think about the fact that sooner or later his or her life will end. Our old age is so far away. So much so that it is easy for it to get lost in everyday studies, tedious work, questionable entertainment, quick snacks and hours of communication on social networks.
