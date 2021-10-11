@@ -13,6 +13,8 @@ Doctorinna is an open-source application for determining the user's risk group f
 This application will allow people in the form of a survey without undergoing a medical examination to understand
 whether it is necessary to be examined by a doctor and change their lifestyle.
 
+We are ambitious and intend to develop our [open-source API](https://github.com/Doctorinna/backend/tree/dev) in order to analyze a variety of biomedical information completely free of charge. There is already provided a microservice for the analysis of biomedical information, but in the near future we will start developing tools for image analysis! 
+
 ## Our services
 If you want to use our application without installation you can use **[web application](https://doctorinna.vercel.app)** or **[Telegram bot](https://t.me/doctorinna_bot)**
 
