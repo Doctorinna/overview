@@ -16,27 +16,29 @@ whether it is necessary to be examined by a doctor and change their lifestyle.
 We are ambitious and intend to develop our [open-source API](https://github.com/Doctorinna/backend/tree/dev) in order to analyze a variety of biomedical information completely free of charge. There is already provided a microservice for the analysis of biomedical information, but in the near future we will start developing tools for image analysis! 
 
 ## Our services
-If you want to use our application without installation you can use **[web application](https://doctorinna.vercel.app)** or **[Telegram bot](https://t.me/doctorinna_bot)**
+:heavy_check_mark: Take the questionnaire through our **[Telegram bot](https://t.me/doctorinna_bot)** \
+🔴 `[WIP]` Visit **[web application](https://doctorinna.vercel.app)**  \
+:heavy_check_mark: Build our API on your machine 
+**[Docker image with stable versions](https://github.com/Doctorinna/overview/blob/master/docker-compose.yml)** \
+:heavy_check_mark: Open for contribution, check **[our API](https://github.com/Doctorinna/backend/tree/dev)** 
 
-If you want to build our application on local machine use
-**[Docker image with stable versions](https://github.com/Doctorinna/overview/blob/master/docker-compose.yml)**
-
-If you want to contribute check **[our API](https://github.com/Doctorinna/backend/tree/dev)**
 ## Demo
-**Click on image to watch demo of Telegram bot**
-
-[![Demo](/media/IMG_6532.jpg)](https://www.youtube.com/watch?v=m8JJrt3AI24)
-
-**[Web application demo](https://youtu.be/FYBloq2nEBo)**
+For you, we have recorded a video with a demonstration of the work of the telegram bot (click the image below) and **[web application](https://youtu.be/FYBloq2nEBo)**!
+<div align="center">
+<a href="https://www.youtube.com/watch?v=m8JJrt3AI24">
+   <img alt="Demo" src="./media/IMG_6532.jpg">
+</a>
+</div>
 
 Results based on data provided in demo video:
 
+<div align="center">
 <p float="left">
-  <img src="./media/IMG_6529.jpg" width="200" />
-  <img src="./media/IMG_6530.jpg" width="200" /> 
-  <img src="./media/IMG_6531.jpg" width="200" />
+  <img src="./media/IMG_6529.jpg"  width="300" />
+  <img src="./media/IMG_6530.jpg" width="300" /> 
+  <img src="./media/IMG_6531.jpg" width="300" />
 </p>
-
+</div>
 
 ## Table of content
 - [Motivation](#motivation)
@@ -64,7 +66,6 @@ A modern person prefers not to think about the fact that sooner or later his or 
 Doctorinna is our attempt to create a product that sobers the modern generation. This open-source product allows you to determine your risk group for the most common diseases by answering questions related to body parameters, habits and heredity. To do this, machine learning models will be trained on publicly available data from patients with diabetes, cardiovascular disease, stroke and lung cancer. The list of diseases will increase as the project develops. An important feature of the project will be a system of recommendations for improving your health.
 
 Our goal is to distract you from the flow of digital garbage for at least a minute, and ask the question, _what are you doing to live to old age?_
-
 
 ### Structure of project <a name="structure"> </a>
 It was decided to build a backend API implemented on the Django REST Framework. It will contain the business logic of the application.
