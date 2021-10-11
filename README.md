@@ -188,22 +188,19 @@ The backend side of the application is implemented in Django REST Framework. A s
 
 ## Code <a name="code"> </a>
 ### Static analyzer <a name="static_analyzer"> </a>
-Backend:
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/924cfbae7cbd4c889eca950aa645a362)](https://www.codacy.com/gh/Doctorinna/backend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/backend&amp;utm_campaign=Badge_Grade)
+For each side of our project we have used `Codacy` as a primary linter. Still, for the backend part we applied `flake8` in CI/CD workflow. This tool failed workflow run if any code style inconsistency or violation found. Following table shows results of linster's usage.
+
+|Repository|Result| Screenshot |
+|-----------|-------------|------------|
+|Backend|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/924cfbae7cbd4c889eca950aa645a362)](https://www.codacy.com/gh/Doctorinna/backend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/backend&amp;utm_campaign=Badge_Grade) [![CI/CD master](https://github.com/Doctorinna/backend/actions/workflows/ci-cd-master.yml/badge.svg)](https://github.com/Doctorinna/backend/actions/workflows/ci-cd-master.yml) |<img src="./media/backend_codacy.jpg" width="800" /> |
+|Frontend|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d6c01263e90b4c3a9e85b630e274eb72)](https://www.codacy.com/gh/Doctorinna/frontend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/frontend&amp;utm_campaign=Badge_Grade) |<img src="./media/frontend_codacy.jpg" width="800" />  |
+|Telegram-bot| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5e91d2c1d64f41cd9bbfeedb7af7f81c?branch=dev)](https://www.codacy.com/gh/Doctorinna/telegram-bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/telegram-bot&amp;utm_campaign=Badge_Grade)|<img src="./media/telegram_codacy.jpg" width="800" />|
 
 
-Frontend: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d6c01263e90b4c3a9e85b630e274eb72)](https://www.codacy.com/gh/Doctorinna/frontend/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/frontend&amp;utm_campaign=Badge_Grade)
-
-Telegram bot: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5e91d2c1d64f41cd9bbfeedb7af7f81c?branch=dev)](https://www.codacy.com/gh/Doctorinna/telegram-bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Doctorinna/telegram-bot&amp;utm_campaign=Badge_Grade)
-
-<p float="left">
-  <img src="./media/backend_codacy.jpg" width="300" />
-  <img src="./media/frontend_codacy.jpg" width="300" /> 
-  <img src="./media/telegram_codacy.jpg" width="300" />
-</p>
 
 ### Test coverage <a name="test_coverage"> </a>
-| Backend                                                                                                                                                                         	| Frontend                                                                                                                                          	|
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------------	|
+For both frontend and backend there was used `Codecov` service calculating test coverage for the code. Following table shows results.
+| Backend| Frontend|
+|------------|------|
 | [![codecov.io](https://codecov.io/github/Doctorinna/backend/coverage.svg?branch=master)](https://app.codecov.io/gh/Doctorinna/backend?branch=master)                            	| [![codecov](https://codecov.io/gh/Doctorinna/frontend/branch/master/graph/badge.svg?token=8BE2XA4162)](https://codecov.io/gh/Doctorinna/frontend) 	|
-| [![CI/CD master](https://github.com/Doctorinna/backend/actions/workflows/ci-cd-master.yml/badge.svg)](https://github.com/Doctorinna/backend/actions/workflows/ci-cd-master.yml) 	|                                                                                                                                                   	|
+
